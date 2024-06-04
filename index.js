@@ -5,7 +5,7 @@ const axios = require('axios');
 const crypto = require('crypto');  // Built-in module, no need to install separately
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 10000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
